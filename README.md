@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+<div id="top"></div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
 
-## Available Scripts
+<br />
+<div align="center">
+  <a href="https://github.com/HectorSaldes/dor">
+    <img src="https://s3.aws-k8s.generated.photos/ai-generated-photos/upscaler-uploads/636/48175e62-afc6-4844-82d3-de3bf90fe3fc.png" alt="Logo" width="auto" height="150">
+  </a>
 
-In the project directory, you can run:
+<h3 align="center">DOR</h3>
 
-### `npm start`
+  <p align="center">
+    This is a personal project to send only the web site to my friends and wish the best birthday with a custom design of glassmorphism, dynamic data and router according to the person.
+    <br />
+    <br />
+    <a href="https://ddoorr.netlify.app/">View Page</a>
+    ·
+    <a href="https://github.com/HectorSaldes/dor/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/HectorSaldes/dor/issues">Request Feature</a>
+  </p>
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- ABOUT THE PROJECT -->
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## About The Project
 
-### `npm test`
+[![DOR Screenshot][dor-screenshot]](https://ddoorr.netlify.app/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+These are two mockups developed in this web page
 
-### `npm run build`
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Built With
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-   [React.js](https://reactjs.org/)
+-   [Tailwind CSS](https://tailwindcss.com/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### `npm run eject`
+<!-- ROADMAP -->
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Roadmap
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+-   [0.1.0] Initial launched adding two birthdays
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+See the [open issues](https://github.com/HectorSaldes/dor/issues) for a full list of proposed features (and known issues).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-## Learn More
+<!-- MARKDOWN LINKS & IMAGES -->
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[contributors-shield]: https://img.shields.io/github/contributors/HectorSaldes/dor.svg?style=for-the-badge
+[contributors-url]: https://github.com/HectorSaldes/dor/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/HectorSaldes/dor.svg?style=for-the-badge
+[forks-url]: https://github.com/HectorSaldes/dor/network/members
+[stars-shield]: https://img.shields.io/github/stars/HectorSaldes/dor.svg?style=for-the-badge
+[stars-url]: https://github.com/HectorSaldes/dor/stargazers
+[issues-shield]: https://img.shields.io/github/issues/HectorSaldes/dor.svg?style=for-the-badge
+[issues-url]: https://github.com/HectorSaldes/dor/issues
+[license-shield]: https://img.shields.io/github/license/HectorSaldes/dor.svg?style=for-the-badge
+[license-url]: https://github.com/HectorSaldes/dor/blob/master/LICENSE.txt
+[dor-screenshot]: https://s3.aws-k8s.generated.photos/ai-generated-photos/upscaler-uploads/772/cc73a36c-8f4f-4029-ad9c-d69717bfd7db.png
