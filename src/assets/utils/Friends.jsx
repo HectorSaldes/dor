@@ -164,4 +164,41 @@ export const Friends = [
                 "https://hectorsald.notion.site/Erick-Mastachi-201126d4c4a64ee09fa73391eb967886",
         },
     },
+	{
+        sebastiancarvajal: {
+            colors: {
+                bgPrimary: "#87A5C0",
+                bgSecondary: "#111218",
+                txtPrimary: "#222430",
+                txtSecondary: "#FFFF",
+            },
+            profile:
+                "https://s3.aws-k8s.generated.photos/ai-generated-photos/upscaler-uploads/232/882a5c27-6b30-40c2-a47b-66db11343b1a.png",
+            notion: "https://s3.aws-k8s.generated.photos/ai-generated-photos/upscaler-uploads/906/b7cc74ba-41ad-49b2-8585-0521d522188f.png",
+            name: "Sebastián",
+            lastName: "Carvajal",
+            birthday: "2022/02/21",
+            dear: "¡Feliz Cumpleaños Pana! 🎂 ¡El día de hoy es especial, espero lo estés disfrutando muchísimo, deseo que todos tus sueños se cumplan y que la vida siempre te regale buenos momentos junto a las personas que más amas ¡Aunque no nos vemos, estoy desde lejos deseándote el mejor cumpleaños del mundo!, La distancia es solo imaginaria, ¡Desde aquí celebro tú cumple!. Que Dios te lleve a todos esos momentos que anhelas, que te dé todos los éxitos por los que estás trabajando, que te dé muchísimos años más, pero sobre todo, que cada uno de ellos te haga feliz. Te aprecio, muchas felicidades y éxito a ti y tu familia. Nunca dejes de perseguir tus sueños y siempre alcanza tus grandes, medianas y cortas metas que te propongas. Cuídate mucho!. (el avatar de arriba lo hice lo más parecido ti).",
+            seeYou: "Siempre te he visto como una persona buena onda, que apoya a sus amigos siempre, aun así cuando tus posibilidades son pocas, pero siempre tratas de dar lo mejor de ti.",
+            wantYou:
+                "Quiero que termines la carrera dando lo mejor de ti, que te llenes de buenos momentos con tus amigos y las personas que te rodean y siempre seas feliz.",
+            senseYou: [
+                {
+                    cover: "https://factmag-images.s3.amazonaws.com/wp-content/uploads/2013/03/kanye_west_032513.jpg",
+                    text: "Amante de la buena música y admiración por Kanye West.",
+                },
+                {
+                    cover: "https://imagenes.20minutos.es/files/article_amp/uploads/imagenes/2021/01/28/apple.jpeg",
+                    text: "Fanático de los productos Apple, tienes buen perfil.",
+                },
+                {
+                    cover: "https://impulsoregio.files.wordpress.com/2014/10/tigres-1.jpg",
+                    text: "Aficionado por el equipo de fútbol Tigres, puro pinche Tigres 😎.",
+                },
+            ],
+            notionPage: [
+                "https://hectorsald.notion.site/Sebasti-n-Carvajal-4f4ce1af957b4dce8ae2ae55b6f8fd58",
+            ],
+        },
+    },
 ];

@@ -8,6 +8,17 @@ import Dashboard from "./pages/Dashboard";
 import { Friends } from "./assets/utils/Friends";
 
 export default function App() {
+
+
+ /*  // Wactch online whatsapp chat
+	setInterval(() => {
+		let message = document.querySelector("#main > header > div._24-Ff > div.zzgSd._3e6xi > span")
+		// let message = document.querySelector("#main > header > div._24-Ff > div.zzgSd._3e6xi > span")
+		if (message) {
+			console.log(`${new Date().getHours()}:${new Date().getMinutes()}:${new Date().getSeconds()}`)
+		}
+	}, 1000) */
+
 	return (
 		<div className="font-poppins">
 			<BrowserRouter>

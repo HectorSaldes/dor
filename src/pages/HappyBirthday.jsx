@@ -14,7 +14,7 @@ import moment from "moment";
 import "moment/locale/es-mx";
 moment.locale("es-mx");
 
-export default function HappyBirthday({ payload, path }) {
+export default function HappyBirthday({ payload, path = "" }) {
 	const {
 		colors: { bgPrimary, bgSecondary, txtPrimary, txtSecondary },
 	} = payload;
