@@ -231,7 +231,7 @@ export const Friends = [
 				},
 				{
 					cover: "https://programacionneurolinguisticahoy.com/wp-content/uploads/2020/05/PNL-para-hacer-amigos.jpg",
-					text: "Tu forma única y certera de hacer amigos que desde el primer acercamiento, caes tan bien y se siente tu buena vibra positiva te hace única.",
+					text: "Tu forma única y certera de hacer amigos que desde el primer acercamiento, caes tan bien y se siente tu buena vibra positiva, te hace única.",
 				},
 			],
 			notionPage: [
