@@ -9,13 +9,14 @@
 <br />
 <div align="center">
   <a href="https://github.com/HectorSaldes/dor">
-    <img src="https://s3.aws-k8s.generated.photos/ai-generated-photos/upscaler-uploads/636/48175e62-afc6-4844-82d3-de3bf90fe3fc.png" alt="Logo" width="auto" height="150">
+    <img src="./src/assets/img/Logo.png" alt="Logo" width="auto" height="150">
   </a>
 
 <h3 align="center">DOR</h3>
 
   <p align="center">
-    This is a personal project to send only the web site to my friends and wish the best birthday with a custom design of glassmorphism, dynamic data and router according to the person.
+    This is a personal project to send only the web site to my friends and wish the best birthday with a custom design of glassmorphism, dynamic data and
+	 router according to the person.
     <br />
     <br />
     <a href="https://ddoorr.netlify.app/">View Page</a>
@@ -65,4 +66,4 @@ See the [open issues](https://github.com/HectorSaldes/dor/issues) for a full lis
 [issues-url]: https://github.com/HectorSaldes/dor/issues
 [license-shield]: https://img.shields.io/github/license/HectorSaldes/dor.svg?style=for-the-badge
 [license-url]: https://github.com/HectorSaldes/dor/blob/master/LICENSE.txt
-[dor-screenshot]: https://s3.aws-k8s.generated.photos/ai-generated-photos/upscaler-uploads/772/cc73a36c-8f4f-4029-ad9c-d69717bfd7db.png
+[dor-screenshot]: ./src/assets/img/Mockups.png

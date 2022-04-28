@@ -201,7 +201,6 @@ export const Friends = [
 			],
 		},
 	},
-
 	{
 		greciavaldez: {
 			colors: {
@@ -236,6 +235,39 @@ export const Friends = [
 			],
 			notionPage: [
 				"https://hectorsald.notion.site/Grecia-Gisel-Solis-Valdez-7f4178ef53ec4b54a06a0791cb1c9a3f",
+			],
+		},
+	},
+	{
+		sardizocampo: {
+			colors: {
+				bgPrimary: "#FED601",
+				bgSecondary: "#456857",
+				txtPrimary: "#4E4540",
+				txtSecondary: "#FFFF",
+			},
+			profile:
+				"https://s3.aws-k8s.generated.photos/ai-generated-photos/upscaler-uploads/417/53dfe5aa-79b9-4bf7-9489-3cbae48616cd.jpg",
+			notion: "https://s3.aws-k8s.generated.photos/ai-generated-photos/upscaler-uploads/834/6db91fab-8a2c-4703-a5ac-9292ce34cf40.png",
+			name: "Sardiz",
+			lastName: "Ocampo",
+			birthday: "2022/04/27",
+			dear: "¡Feliz Cumpleaños Sardina!. 🤩🥳🎂 ¡El día de hoy es muy especial, espero lo estés disfrutando muchísimo, deseo ansiosamente que todos los anhelos de tu corazón se cumplan y que la vida siempre te regale buenos momentos junto a las personas que más amas ¡Aunque no nos veamos, estoy desde lejos deseándote el mejor cumpleaños del mundo! No te olvides que siempre estaré para lo que necesites. ¡La distancia es solo imaginaria! ¡Desde aquí celebro tú cumple!. ✨ Espero que DIOS te lleve a todos esos momentos que tanto sueñas, que te dé todos los éxitos por los que estás trabajando, que te dé muchísimos años más, pero sobre todo, que cada uno de ellos te haga feliz. 😇 Te aprecio mucho, eres de las chicas más chidas que conozco, desde que te conocí en la prepa, porque en la CQ eras la más fresa... jsjsj, ntc, pero sí pasamos buenas risas en la prepa, muchas felicidades y bendiciones a ti y tu familia. Eres muy buena en lo que haces y lo sabes, nunca dejes de perseguir tus sueños y siempre alcanza tus grandes, medianas y cortas metas que te propongas.  Cuídate mucho!. 🥰",
+			seeYou: "Te veo como una chica que brinda su más sincera amistad a todos sus amigos, te preocupas, los cuidas, los proteges, los escuchas, los ayudas en lo posible y que tu humor es super divertido.",
+			wantYou:
+				"Quiero que siempre consigas todo aquello que quieres alcanzar, te atrevas y tomes el valor que todo aquello que quieres hacer y no lo haces por miedo, pena o algo por el estilo, recuerda que vida solo una, así que vive el momento!!, saca lo mejor de ti, en la escuela y en la vida. Sé la mejor maeta!!!",
+			senseYou: [
+				{
+					cover: "https://concepto.de/wp-content/uploads/2015/05/pedagogia-e1546995237304-800x400.jpg",
+					text: "Creo que serás la mejor maeta preparada para lidiar con los niños, en especial con los niños que vomitarán danonino con cheetos (broma).",
+				},
+				{
+					cover: "https://programacionneurolinguisticahoy.com/wp-content/uploads/2020/05/PNL-para-hacer-amigos.jpg",
+					text: "Eres una muy buena amistad y contigo es todo risa, deberíamos ir a hechar el rol algún dia.",
+				},
+			],
+			notionPage: [
+				"https://hectorsald.notion.site/Sardiz-Ocampo-4da6bf31bc3c440d9f624f6b837d9157",
 			],
 		},
 	},
