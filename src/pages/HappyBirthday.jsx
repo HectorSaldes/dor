@@ -1,211 +1,105 @@
-import React from "react";
-import { Helmet, HelmetProvider } from "react-helmet-async";
-import { Link } from "react-router-dom";
-import Ballon from "../assets/svg/Ballon.svg";
-import Cake from "../assets/svg/cake.svg";
-import Congrat from "../assets/svg/congrat.svg";
-import Congrats from "../assets/svg/congrats.svg";
-import Gif from "../assets/svg/gif.svg";
-import Horse from "../assets/svg/horse.svg";
-import Pie from "../assets/svg/pie.svg";
-import Piece from "../assets/svg/piece.svg";
-import Calendar from "../assets/svg/calendar.svg";
-import moment from "moment";
-import "moment/locale/es-mx";
-moment.locale("es-mx");
+import React from 'react';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
+import { Link } from 'react-router-dom';
+import Icons from '../components/Icons';
+import ButtonAboutMe from '../components/ButtonAboutMe';
+import CardCartoonOutlined from '../components/CardCartoonOutlined';
+import CardCartoonFilled from '../components/CardCartoonFilled';
+import ImageTop from '../components/ImageTop';
+import TextDetails from '../components/TextDetails';
+import CardSense from '../components/CardSense';
+import moment from 'moment';
+import 'moment/locale/es-mx';
 
-export default function HappyBirthday({ payload, path = "" }) {
+moment.locale('es-mx');
+
+export default function HappyBirthday({ payload, path = '' }) {
 	const {
-		colors: { bgPrimary, bgSecondary, txtPrimary, txtSecondary },
+		colors: { bgPrimary, bgSecondary },
+	} = payload;
+	const {
+		profile, notion, name, lastName, birthday, dear, seeYou, wantYou, senseYou, notionPage,
 	} = payload;
 
-	const {
-		profile,
-		notion,
-		name,
-		lastName,
-		birthday,
-		dear,
-		seeYou,
-		wantYou,
-		senseYou,
-		notionPage,
-	} = payload;
-	return (
-		<>
-			<HelmetProvider>
-				<Helmet>
-					<title>
-						DOR | {name} {lastName}
-					</title>
-					<meta
-						property="og:url"
-						content={`https://ddoorr.netlify.app/${path}`}
-					/>
-				</Helmet>
-			</HelmetProvider>
-			<div
-				className="p-4 w-full h-full"
-				style={{
-					background: `radial-gradient(81.91% 161.98% at 14.41% 14.5%, ${bgPrimary} 0%, ${bgSecondary} 100%)`,
-					color: `${txtSecondary}`,
-				}}
-			>
-				<div className="container glassmorphism">
-					<div className="w-full flex py-6 px-4 md:px-8 justify-between items-center">
-						<div>
-							<Link to="/">
-								<h1 className="text-5xl md:text-7xl font-bold tracking-tighter">
-									DOR
-								</h1>
-							</Link>
-						</div>
-						<div>
-							<a
-								href={notionPage}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<button className="py-2 px-4 md:px-6 glassmorphism duration-300 transform hover:scale-110">
-									¡Dame esos 5! 🖐
-								</button>
-							</a>
+	return (<>
+		<HelmetProvider>
+			<Helmet>
+				<title>
+					DOR | {name} {lastName}
+				</title>
+				<meta
+					property='og:url'
+					content={`https://ddoorr.netlify.app/${path}`}
+				/>
+			</Helmet>
+		</HelmetProvider>
+		<div className={`p-4 w-full h-full`}
+				 style={{ background: `radial-gradient(81.91% 161.98% at 14.41% 14.5%, ${bgPrimary} 0%, ${bgSecondary} 100%)` }}>
+			<div className='container glassmorphism pb-2'>
+				<div className='w-full flex py-6 px-4 md:px-8 justify-between items-center'>
+					<Link
+						className='btnCartoonFilled'
+						to='/'>
+						<h1 className='text-5xl md:text-7xl font-bold tracking-tighter'>
+							DOR
+						</h1>
+					</Link>
+					<a
+						href={notionPage}
+						target='_blank'
+						rel='noreferrer'>
+						<button
+							className='btnCartoonFilled'>
+							👏 ¡Dame esos 5!
+						</button>
+					</a>
+				</div>
+				<div className='w-full sm:w-5/6 mx-auto'>
+					<div className='relative flex flex-wrap justify-center'>
+						<CardCartoonOutlined Items={() => (<ImageTop url={profile} alt='Image profile' />)} />
+						<CardCartoonOutlined Items={() => (<ImageTop url={notion} alt='Image notion' />)} />
+					</div>
+					<div className='my-8 md:my-10 text-center'>
+						<div className='text-5xl md:text-8xl font-bold text-transparent relative'>
+							<h1
+								className='absolute bg-black bg-clip-text translate-x-1 -translate-y-1'>
+								¡Feliz Cumpleaños, <span className='bg-clip-text' style={{ color: bgSecondary }}>{name}</span>!
+							</h1>
+							<h1 className='bg-white bg-clip-text'>¡Feliz Cumpleaños, {name}!</h1>
 						</div>
 					</div>
-					<div className="container w-5/6 mx-auto">
-						<div className="flex justify-center">
-							<img
-								className="rounded-full w-40 md:w-80"
-								src={profile}
-								alt="Profile"
-							/>
-							<p className="mx-2 md:mx-5"></p>
-							<img
-								className="rounded-full w-40 md:w-80"
-								src={notion}
-								alt="Notion"
-							/>
+					<div className='my-7 text-center'>
+						<CardCartoonFilled
+							Items={() => (<>
+								<h3 className='font-bold text-3xl md:text-5xl'>{moment(birthday).format('LL')}</h3>
+								<Icons />
+							</>)}
+						/>
+					</div>
+					<CardCartoonOutlined Items={() => (<TextDetails title={`Quedid@ ${name} ${lastName}`} description={dear} />)} />
+					<div className='my-7 grid grid-cols-1 md:grid-cols-2 gap-10'>
+						<div className='w-full'>
+							<CardCartoonOutlined Items={() => (<TextDetails title='Como yo te veo' description={seeYou} />)} />
 						</div>
-
-						<div className="my-8 md:my-10 text-center">
-							<h2 className="text-4xl md:text-8xl font-bold">
-								¡Feliz Cumpleaños,{" "}
-								<span style={{ color: `${txtPrimary}` }}>
-									{name}
-								</span>
-								!
-							</h2>
-							<div className="my-8 md:my-10 flex justify-evenly flex-wrap">
-								<img
-									className="w-12 md:w-20"
-									alt="Ballon"
-									src={Ballon}
-								/>
-								<img
-									className="w-12 md:w-20"
-									alt="Cake"
-									src={Cake}
-								/>
-								<img
-									className="w-12 md:w-20"
-									alt="Congrat"
-									src={Congrat}
-								/>
-								<img
-									className="w-12 md:w-20"
-									alt="Congrats"
-									src={Congrats}
-								/>
-								<img
-									className="w-12 md:w-20"
-									alt="Gif"
-									src={Gif}
-								/>
-								<img
-									className="w-12 md:w-20"
-									alt="Horse"
-									src={Horse}
-								/>
-								<img
-									className="w-12 md:w-20"
-									alt="Pie"
-									src={Pie}
-								/>
-								<img
-									className="w-12 md:w-20"
-									alt="Piece"
-									src={Piece}
-								/>
-							</div>
-							<div className="my-5">
-								<img
-									className="w-12 md:w-20 mx-auto"
-									alt="Calendar"
-									src={Calendar}
-								/>
-								<h3 className="font-bold text-3xl">
-									{moment(birthday).format("LL")}
-								</h3>
-							</div>
+						<div className='w-full'>
+							<CardCartoonOutlined Items={() => (<TextDetails title='Que quiero para ti' description={wantYou} />)} />
 						</div>
-
-						<h3 className="font-bold text-3xl">
-							Querid@,{" "}
-							<span style={{ color: `${txtPrimary}` }}>
-								{`${name} ${lastName}`}
-							</span>
-						</h3>
-						<p className="text">{dear}</p>
-						<div className="my-20 grid grid-cols-1 md:grid-cols-2 gap-10">
-							<div className="w-full md:w-4/5">
-								<h3 className="font-bold text-3xl">
-									Como yo te veo
+					</div>
+					<div className='mb-6'>
+						<CardCartoonOutlined
+							Items={() => (<>
+								<h3 className='font-bold text-3xl mb-3'>
+									Lo que percibo de ti
 								</h3>
-								<p className="text">{seeYou}</p>
-							</div>
-							<div className="w-full md:w-4/5">
-								<h3 className="font-bold text-3xl">
-									Que quiero para ti
-								</h3>
-								<p className="text">{wantYou}</p>
-							</div>
-						</div>
-						<h3 className="font-bold text-3xl">
-							Lo que percibo de ti
-						</h3>
-						<div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-							{senseYou.map((sense, i) => (
-								<div
-									className="w-full rounded-md glassmorphism overflow-hidden"
-									key={i}
-								>
-									<img
-										className="w-full h-52 object-cover"
-										src={sense.cover}
-										alt=""
-									/>
-									<div className="p-5">
-										<p className="text-lg text-justify">
-											{sense.text}
-										</p>
-									</div>
+								<div className='grid grid-cols-1 md:grid-cols-3 gap-10'>
+									{senseYou.map((sense, i) => (<CardSense key={i} url={sense.cover} text={sense.text} />))}
 								</div>
-							))}
-						</div>
-
-						<a
-							href="https://hectorsaldes.netlify.app/"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							<h4 className="footer">
-								Página web escrita desde un teclado con amor.{" "}
-								Hector 💥
-							</h4>
-						</a>
+							</>)}
+						/>
 					</div>
+					<ButtonAboutMe />
 				</div>
 			</div>
-		</>
-	);
+		</div>
+	</>);
 }

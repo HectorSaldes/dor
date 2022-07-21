@@ -5,7 +5,7 @@
 
 @layer components {
 	.glassmorphism {
-		@apply bg-dorColor-100 rounded-3xl bg-opacity-20 backdrop-filter backdrop-blur-md shadow-md;
+		@apply bg-dorColor-100 rounded-3xl bg-opacity-20 backdrop-filter backdrop-blur-md shadow-md md:border-2 md:border-black
 	}
 
 	.footer {
@@ -14,5 +14,13 @@
 
 	.text {
 		@apply text-xl text-justify;
+	}
+
+	.btnAboutMe{
+		@apply flex items-center justify-center px-4 py-2 transition bg-yellow-300 border-2 border-[#101010] rounded-md focus:outline-none focus:ring shadow-[3px_3px_0_0_#101010] hover:shadow-none active:bg-yellow-50 text-black text-center
+	}
+
+	.btnCartoonFilled{
+		@apply flex items-center justify-center px-4 py-2 transition bg-transparent border-2 border-[#101010] rounded-md focus:outline-none focus:ring shadow-[3px_3px_0_0_#101010] hover:shadow-none active:bg-white text-black
 	}
 }
