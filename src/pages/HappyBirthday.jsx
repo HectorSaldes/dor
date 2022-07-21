@@ -27,10 +27,6 @@ export default function HappyBirthday({ payload, path = '' }) {
 				<title>
 					DOR | {name} {lastName}
 				</title>
-				<meta
-					property='og:url'
-					content={`https://ddoorr.netlify.app/${path}`}
-				/>
 			</Helmet>
 		</HelmetProvider>
 		<div className={`p-4 w-full h-full`}
