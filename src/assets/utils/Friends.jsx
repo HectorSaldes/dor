@@ -255,4 +255,43 @@ export const Friends = [
 			],
 		},
 	},
+	{
+		luisenriqueao: {
+			colors: {
+				bgPrimary: '#059FFF',
+				bgSecondary: '#143f79',
+			},
+			profile:
+				'https://s3.aws-k8s.generated.photos/ai-generated-photos/upscaler-uploads/uploads/421/1799fd42-c769-4ac4-854b-b64ba43d7eb6.jpg',
+			notion: 'https://s3.aws-k8s.generated.photos/ai-generated-photos/upscaler-uploads/uploads/209/233b6d9f-3b7b-46ad-84f9-709707173b4a.png',
+			name: 'Luis Henirch',
+			lastName: 'Álvarez',
+			birthday: '2022/07/22',
+			dear: '¡Feliz Cumpleaños mi querido Luis Ludwig proveniente desde las tierras de Alemania!. 🤩 ¡Espero que este día lo hayas disfrutado mucho con tus seres queridos y personas más cercanas, espero que todos los deseos de tu corazón se cumplan, y que la vida te regale y llene de buenos momentos, sigue creciendo de manera profesional y en todos los proyectos que tengas o te esperen lo hayas con toda la actitud. Venga ÁNIMO ÁNIMO ÁNIMO ÁNIMO ÁNIMO ÁNIMO ÁNIMO ÁNIMO x99999',
+			seeYou: 'Te veo como una persona comprensiva y mediadora frente a los problemas, sabes reconocer errores y siempre que puedes pides perdón y busca soluciones buscando el bien común de todas las personas. Eres un buen amigo.',
+			wantYou:
+				'Quiero que sigas siendo esa persona tal y como eres, que siempre tomes el valor o la iniciativa de obtener algo arriesgado, sabiendo que es un reto, pero que al final tendrá alguna buena recompensa. ¡Mis mejores deseos para ti.!',
+			senseYou: [
+				{
+					cover: 'https://images.unsplash.com/photo-1542751371-adc38448a05e',
+					text: 'Eres una persona que le encantan los videojuegos.',
+				},
+				{
+					cover: 'https://images.unsplash.com/photo-1559028012-481c04fa702d',
+					text: 'Te encantan los mejores diseños, estilos, colores y todo lo relacionado con el diseño para páginas web.',
+				},
+				{
+					cover: 'https://images.unsplash.com/photo-1603920810535-54f3a9b1dd8d',
+					text: 'Te gustan los productos Apple precisamente por sus buenos diseños, sistema operativo y sin duda su cámara.',
+				},
+				{
+					cover: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac',
+					text: 'Y sobre todo pasar buen rato con los amigos y familia.',
+				},
+			],
+			notionPage: [
+				'https://hectorsald.notion.site/Luis-Enrique-lvarez-6fc0d0ed19a34fe49a81ddebcce86af0',
+			],
+		},
+	},
 ];

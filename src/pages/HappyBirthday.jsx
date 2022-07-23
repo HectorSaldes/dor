@@ -58,10 +58,10 @@ export default function HappyBirthday({ payload, path = '' }) {
 					<div className='my-8 md:my-10 text-center'>
 						<div className='text-5xl md:text-8xl font-bold text-transparent relative'>
 							<h1
-								className='absolute bg-black bg-clip-text translate-x-1 -translate-y-1'>
-								¡Feliz Cumpleaños, <span className='bg-clip-text' style={{ color: bgSecondary }}>{name}</span>!
+								className='absolute text-black bg-clip-text translate-x-1 -translate-y-1'>
+								¡Feliz Cumpleaños, {name}!
 							</h1>
-							<h1 className='bg-white bg-clip-text'>¡Feliz Cumpleaños, {name}!</h1>
+							<h1 className='text-white '>¡Feliz Cumpleaños, {name}!</h1>
 						</div>
 					</div>
 					<div className='my-7 text-center'>
