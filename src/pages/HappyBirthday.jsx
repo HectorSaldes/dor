@@ -72,7 +72,7 @@ export default function HappyBirthday({ payload, path = '' }) {
 							</>)}
 						/>
 					</div>
-					<CardCartoonOutlined Items={() => (<TextDetails title={`Quedid@ ${name} ${lastName}`} description={dear} />)} />
+					<CardCartoonOutlined Items={() => (<TextDetails title={`Querid@ ${name} ${lastName}`} description={dear} />)} />
 					<div className='my-7 grid grid-cols-1 md:grid-cols-2 gap-10'>
 						<div className='w-full'>
 							<CardCartoonOutlined Items={() => (<TextDetails title='Como yo te veo' description={seeYou} />)} />

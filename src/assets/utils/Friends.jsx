@@ -294,4 +294,47 @@ export const Friends = [
 			],
 		},
 	},
+	{
+		berenicetorres: {
+			colors: {
+				bgPrimary: '#DC605A',
+				bgSecondary: '#FFB39C',
+			},
+			profile:
+				'https://s3.aws-k8s.generated.photos/ai-generated-photos/upscaler-uploads/uploads/705/0c41f388-e9dd-497e-98fb-469148e72f20.png',
+			notion: 'https://s3.aws-k8s.generated.photos/ai-generated-photos/upscaler-uploads/uploads/351/ef923e02-efa2-4751-9886-90d0146390c5.png',
+			name: 'Ma. Berenice',
+			lastName: 'Torres Tuco',
+			birthday: '2022/07/24',
+			dear: '¡Feliz Cumpleaños Bereeeeee!. 🤩🥳🎂 ¡El día de hoy es muy especial, espero lo estés disfrutando muchísimo, deseo ansiosamente que todos los anhelos de tu corazón se cumplan y que la vida siempre te regale buenos momentos junto a las personas que más amas ¡Aunque no nos estemos viendo, estoy desde mi casita o quien sabe quizá estoy en la calle, no lose jaja, pero estoy deseándote el mejor cumpleaños del mundo! No te olvides que siempre estaré para lo que necesites. ✨ Espero que DIOS te lleve a todos esos momentos que tanto anhelas, que te dé todos los éxitos por los que estás trabajando, que te dé muchísimos años más, pero sobre todo, que cada uno de ellos te haga feliz. 😇 Te aprecio mucho, eres de las chicas más buena onda que conozco, desde que te conocí bien en los cursos, has sido una gran amiga, te considero para mí una de mis mejores amigas, sé que tengo tu apoyo y cuento contigo, ten presente que tú cuentas conmigo desde antes, ahora y de aquí en adelante!!. Aún recuerdo cuando te di aquel pequeño papel con unas palabras de felicitaciones que te escribí cuando apenas iniciábamos la universidad, pero hoy lo hago de una forma diferente, pero el amor y el cariño con el que lo hice sigue siendo el mismo. También recuerda la vez que me dijiste cuando iniciábamos, qué juntos entramos y juntos saldríamos de la Uni, quiero que sepas que sigue en pie eso, y esto mismo te lo recordaré en día de nuestra graduación, sería un gran momento lleno de felicidad. Muchas felicidades y bendiciones a ti y tu familia. Eres muy buena en lo que haces y lo sabes, nunca dejes de perseguir tus sueños y siempre alcanza tus grandes, medianas y cortas metas que te propongas.  Cuídate mucho TKM!. 🥰',
+			seeYou: 'Te veo como una chica que brinda su más sincera amistad a todos sus amigos, te preocupas, los cuidas, los proteges, los escuchas, los ayudas en lo posible y que tu humor es superdivertido, sabes afrontarte a las adversidades y retos, tienes tu propio encanto y esencia que te hace muy única y ¡Espectacular!',
+			wantYou:
+				'Que te puedo decir, quiero que tengas muchos carros, muchas casas, mucho dinero, muchos novios guapos, una vida sin preocupaciones, pero sobre todo quiero que siempre consigas todo aquello que quieres alcanzar, te atrevas y tomes el valor que todo aquello que quieres hacer y no lo haces por miedo, pena o algo por el estilo, recuerda que vida solo una y se muere solo una vez, saca lo mejor de ti, en la escuela y en la vida, y verás que si lo haces todo te saldrá tal y como lo habías pensado.',
+			senseYou: [
+				{
+					cover: 'https://images.unsplash.com/photo-1516975080664-ed2fc6a32937',
+					text: 'Eres alguien que le gusta sentirse bonita, y lo eres, eres bastante linda, sé que te encanta maquillarte.',
+				},
+				{
+					cover: 'https://programacionneurolinguisticahoy.com/wp-content/uploads/2020/05/PNL-para-hacer-amigos.jpg',
+					text: 'Eres una muy buena amistad y contigo es todo risa, cualquier persona que se tome un momento en platicar contigo, sabrá lo maravillosa que eres como persona.',
+				}, {
+					cover: 'https://images.unsplash.com/photo-1541265337361-e60178d43b83',
+					text: 'Eres muy fotogénica, te encanta tomar y que te tomen buenas fotos.',
+				}, {
+					cover: 'https://images.unsplash.com/photo-1526772662000-3f88f10405ff',
+					text: 'Te encanta salir, conocer nuevas personas y lugares.',
+				}, {
+					cover: 'https://images.unsplash.com/photo-1485217988980-11786ced9454',
+					text: 'Tienes como esa vibra de emprender o ser buena mercadóloga, vender cositas.',
+				}, {
+					cover: 'https://images.unsplash.com/photo-1600074343731-f535b50de3c8',
+					text: 'Amas vestirse muy bien, y creeme que lo haces genial, siempre te veo con unos tremendos outfits bien puercos, o sea lindos jiji.',
+				},
+			],
+			notionPage: [
+				'https://hectorsald.notion.site/Ma-Berenice-Torres-ee7017d5405c467c936d269916dc1bd2',
+			],
+		},
+	},
 ];
