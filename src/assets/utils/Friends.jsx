@@ -95,7 +95,7 @@ export const Friends = [
 				{
 					cover:
 						'https://lawsafetyschool.com/wp-content/uploads/criminologia-y-criminalistica.jpeg',
-					text: "Me impresiona mucho la capacidad en la que aguantas al ver todo tipo de cosas 'Fuertes', como la sangre o personas muertas.",
+					text: 'Me impresiona mucho la capacidad en la que aguantas al ver todo tipo de cosas \'Fuertes\', como la sangre o personas muertas.',
 				},
 				{
 					cover:
@@ -401,6 +401,69 @@ export const Friends = [
 			],
 			notionPage: [
 				'https://hectorsald.notion.site/Farid-Martinez-ed1ae9757ace4c49846f5127eaed864d',
+			],
+		},
+	},
+	{
+		marytzell: {
+			colors: {
+				bgPrimary: '#8338ec',
+				bgSecondary: '#051923',
+			},
+			profile: 'https://i.imgur.com/PYp3uQK.jpeg',
+			notion: 'https://i.imgur.com/SMyz2FQ.png',
+			name: 'Marytzell',
+			lastName: '',
+			birthday: '2022/10/12',
+			dear: '¡Feliz Cumpleaños Mary!. 🤩🥳🎂 ¡El día de hoy es muy especial, espero lo disfrutes y lo estés disfrutando muchísimo, en realidad espero que todos los anhelos de tu corazón se cumplan y que la vida siempre te regale buenos momentos junto a las personas que más amas ¡Aunque no me veas ahora y aunque no lo creas, estoy desde lejos deseándote el mejor cumpleaños del mundo! Espero que solo tengas cosas positivas en tu vida y que no te olvides que siempre estaré para lo que necesites. ¡La distancia es solo imaginaria!. ¡Desde aquí celebro tú cumple!. ✨ Espero que DIOS te lleve a todos esos momentos que anhelas, que te dé todos los éxitos por los que estás trabajando, que te dé muchísimos años más, pero sobre todo, que cada uno de ellos te haga feliz. 😇 Te aprecio demasiado, muchaaaaas felicidades y bendiciones para ti y tu familia. Eres muy buena en lo que haces y lo sabes, nunca dejes de perseguir tus sueños y siempre alcanza tus grandes, medianas y cortas metas que te propongas. Eres una chica súper coool. Cuídate mucho!. 🥰',
+			seeYou:
+				'Te miro alguien super apasionada en lo que haces, le pones mucho empeño, haces que todo salga de lo mejor posible, eres perseverante y siempre quieres autosuperarte. Me super encanta tu forma de ser!. 🥰',
+			wantYou:
+				'Quiero que termines y humilles a esa certificación de Excel y las que vengan!, porque sé que puedes con ello y más!, que te sigas esforzando en ser alguien más profesional día a día y eso te lleve a ser la gran project management ✨',
+			senseYou: [
+				{
+					cover: 'https://images.unsplash.com/photo-1556761175-129418cb2dfe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cG9kY2FzdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+					text: 'Te gusta escuchar pódcast y la verdad que es una muy buena opción para entretenerte y aprender, empezaré a escuchar más pódcast como tú lo haces 🤓',
+				},
+				{
+					cover: 'https://images.unsplash.com/photo-1603750003385-3342231a1ff1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bXVzZXVtc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+					text: 'Te gustan los lugares tranquilos como jardines, cafés y museos para tener un momento de paz, tanto como a mí  me gustan esos lugares 🍃🍂',
+				},
+				{
+					cover: 'https://images.unsplash.com/photo-1570215171323-4ec328f3f5fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c29mdHdhcmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60',
+					text: 'Me impresionaste demasiado al saber muchos conceptos de mi carrera cuando nos estábamos conociendo, hasta te dije que podías ser una ingeniera en software jaja 😂',
+				},
+				{
+					cover: 'https://images.unsplash.com/photo-1598262721485-a3825ae2a7d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3VyJTIwY29yZWFub3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+					text: 'Te gusta el contenido sur coreano, créeme que estoy empezando adentrarme a ese mundo 🤓',
+				},
+				{
+					cover: 'https://images.unsplash.com/photo-1551269901-5c5e14c25df7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aGFycnklMjBwb3R0ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60',
+					text: 'Te encantan las películas de Harry Potter, y como ya te había dicho yo no he visto una sola completa 🥺',
+				},
+				{
+					cover: 'https://images.unsplash.com/photo-1593526492327-b071f3d5333e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+					text: 'Te gustan muchos los pandaaaas 🐼💖',
+				},	{
+					cover: 'https://images.unsplash.com/photo-1582769923195-c6e60dc1d8dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80',
+					text: 'El morado, y los colores neutros te gustan, es por eso que cree esta página con esos colores, para ti 💜',
+				},	{
+					cover: 'https://images.unsplash.com/photo-1511275539165-cc46b1ee89bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+					text: 'Te gustan los adorables gatitos, en especial a tu gatita nube ☁🐱',
+				},	{
+					cover: 'https://images.unsplash.com/photo-1499578124509-1611b77778c8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80',
+					text: 'Te encanta la luna, a mí también me gusta cuando está llena y se mira gigantesca 🌕',
+				},	{
+					cover: 'https://images.unsplash.com/photo-1635878793545-f8e2d3773ec0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1026&q=80',
+					text: 'Tu época favorita es día de muertos, por el rico pan de muerto, la flor de cempasúchil, ofrenda y probablemente por muchas cosas más 🤗',
+				},
+				{
+					cover: 'https://images.unsplash.com/photo-1536893827774-411e1dc7c902?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80',
+					text: 'Sueles soñar bastante, sueños bonitos, raros, chistosos, de miedo... de todo un poco, yo con suerte llego a soñar pero muy poco 🥺',
+				},
+			],
+			notionPage: [
+				'https://hectorsald.notion.site/Marytzell-2a67f810e5fe4abd82ead26e513c887c',
 			],
 		},
 	},

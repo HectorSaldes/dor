@@ -21,6 +21,6 @@
 	}
 
 	.btnCartoonFilled{
-		@apply flex items-center justify-center px-4 py-2 transition bg-transparent border-2 border-[#101010] rounded-md focus:outline-none focus:ring shadow-[3px_3px_0_0_#101010] hover:shadow-none active:bg-white text-black
+		@apply flex items-center justify-center px-4 py-2 transition bg-transparent border-2 border-[#101010] bg-white rounded-md focus:outline-none focus:ring shadow-[3px_3px_0_0_#101010] hover:shadow-none active:bg-white text-black
 	}
 }
