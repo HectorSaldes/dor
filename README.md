@@ -39,14 +39,14 @@ These are two mockups developed in this web page
 - [v0.2.0] A new design using components from hyperui.dev.
 - [v0.1.0] Initial launched using TailwindCSS like our best framework to design.
 
-[contributors-shield]: https://img.shields.io/github/contributors/HectorSaldes/liber.svg?style=for-the-badge&logo=counterstrike&color=FF6056
+[contributors-shield]: https://img.shields.io/github/contributors/HectorSaldes/dor.svg?style=for-the-badge&logo=counterstrike&color=FF6056
 [contributors-url]: https://github.com/HectorSaldes/dor/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/HectorSaldes/liber.svg?style=for-the-badge&logo=forestry&color=253849
+[forks-shield]: https://img.shields.io/github/forks/HectorSaldes/dor.svg?style=for-the-badge&logo=forestry&color=253849
 [forks-url]: https://github.com/HectorSaldes/dor/network/members
-[stars-shield]: https://img.shields.io/github/stars/HectorSaldes/liber.svg?style=for-the-badge&logo=riseup&color=FFD65A
+[stars-shield]: https://img.shields.io/github/stars/HectorSaldes/dor.svg?style=for-the-badge&logo=riseup&color=FFD65A
 [stars-url]: https://github.com/HectorSaldes/dor/stargazers
-[issues-shield]: https://img.shields.io/github/issues/HectorSaldes/liber.svg?style=for-the-badge&logo=stardock&color=FFC25A
+[issues-shield]: https://img.shields.io/github/issues/HectorSaldes/dor.svg?style=for-the-badge&logo=stardock&color=FFC25A
 [issues-url]: https://github.com/HectorSaldes/dor/issues
-[license-shield]: https://img.shields.io/github/license/HectorSaldes/liber.svg?style=for-the-badge&logo=wikidata&color=61533E
+[license-shield]: https://img.shields.io/github/license/HectorSaldes/dor.svg?style=for-the-badge&logo=wikidata&color=61533E
 [license-url]: https://github.com/HectorSaldes/dor/blob/master/LICENSE.txt
 [photo-mockup]: ./src/assets/img/Mockups.png
