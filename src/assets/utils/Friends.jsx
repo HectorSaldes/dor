@@ -413,7 +413,7 @@ export const Friends = [
 			profile: 'https://i.imgur.com/PYp3uQK.jpeg',
 			notion: 'https://i.imgur.com/SMyz2FQ.png',
 			name: 'Marytzell',
-			lastName: '',
+			lastName: 'Cabrera',
 			birthday: '2022/10/12',
 			dear: '¡Feliz Cumpleaños Mary!. 🤩🥳🎂 ¡El día de hoy es muy especial, espero lo disfrutes y lo estés disfrutando muchísimo, en realidad espero que todos los anhelos de tu corazón se cumplan y que la vida siempre te regale buenos momentos junto a las personas que más amas ¡Aunque no me veas ahora y aunque no lo creas, estoy desde lejos deseándote el mejor cumpleaños del mundo! Espero que solo tengas cosas positivas en tu vida y que no te olvides que siempre estaré para lo que necesites. ¡La distancia es solo imaginaria!. ¡Desde aquí celebro tú cumple!. ✨ Espero que DIOS te lleve a todos esos momentos que anhelas, que te dé todos los éxitos por los que estás trabajando, que te dé muchísimos años más, pero sobre todo, que cada uno de ellos te haga feliz. 😇 Te aprecio demasiado, muchaaaaas felicidades y bendiciones para ti y tu familia. Eres muy buena en lo que haces y lo sabes, nunca dejes de perseguir tus sueños y siempre alcanza tus grandes, medianas y cortas metas que te propongas. Eres una chica súper coool. Cuídate mucho!. 🥰',
 			seeYou:
@@ -444,16 +444,16 @@ export const Friends = [
 				{
 					cover: 'https://images.unsplash.com/photo-1593526492327-b071f3d5333e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
 					text: 'Te gustan muchos los pandaaaas 🐼💖',
-				},	{
+				}, {
 					cover: 'https://images.unsplash.com/photo-1582769923195-c6e60dc1d8dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80',
 					text: 'El morado, y los colores neutros te gustan, es por eso que cree esta página con esos colores, para ti 💜',
-				},	{
+				}, {
 					cover: 'https://images.unsplash.com/photo-1511275539165-cc46b1ee89bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
 					text: 'Te gustan los adorables gatitos, en especial a tu gatita nube ☁🐱',
-				},	{
+				}, {
 					cover: 'https://images.unsplash.com/photo-1499578124509-1611b77778c8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80',
 					text: 'Te encanta la luna, a mí también me gusta cuando está llena y se mira gigantesca 🌕',
-				},	{
+				}, {
 					cover: 'https://images.unsplash.com/photo-1635878793545-f8e2d3773ec0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1026&q=80',
 					text: 'Tu época favorita es día de muertos, por el rico pan de muerto, la flor de cempasúchil, ofrenda y probablemente por muchas cosas más 🤗',
 				},
@@ -464,6 +464,33 @@ export const Friends = [
 			],
 			notionPage: [
 				'https://hectorsald.notion.site/Marytzell-2a67f810e5fe4abd82ead26e513c887c',
+			],
+		},
+	},
+	{
+		vaniabahena: {
+			colors: {
+				bgPrimary: '#FF5CD1',
+				bgSecondary: '#FF33C5',
+			},
+			profile: 'https://i.imgur.com/zSNgwdK.png',
+			notion: 'https://i.imgur.com/1xScTg0.png',
+			name: 'Vania',
+			lastName: 'Bahena',
+			birthday: '2022/10/26',
+			dear: 'Muchas felicidades Vania, espero que está mañana la hayas empezado con el pie derecho, porque este día quizá puede ser cualquier día para los demás, pero sabes que para ti y algunas personas que te amamos ¡NO!, este día hace 21 años, nació una persona muy linda que ha estado presente en mi vida, que ha estado conmigo en todos los momentos que he necesitado de ti, me has ayudado en todo momento, en pocas palabras, has estado para mí, y creo yo, que siempre que lo necesite estarás tú para mí y tratar de hacerme sentir bien si no lo estoy, por todo eso y mucho más digo gracias!, y también a tus padres por tenerte a ti. Pero bueno, nunca acabaría de agradecer a Dios por tenerte en mi camino, que te ha cuidado y protegido todos estos años y lo que te ha pasado, créeme que estás en una edad maravillosa en dónde hay muchas cosas por conocer, descubrir y no estancarte, que nadie te limité hacer algo que te gusta y apasiona, créeme que las ganas de hacer algo, siempre están, solo que algunas personas hacen que eso no pase o uno mismo no tiene la suficiente motivación, así que nadie intente robarte los sueños y metas, siempre estaré yo apoyándote en todo, estaré para ti, incluso cuando no se esté dando la oportunidad de vernos, pero que tengas en mente que yo, y todas las demás personas que te rodean estarán para ti siempre; quizá algunas te defrauden, pero no importa, estarán más personas dándote una mano. Dios te bendiga mucho, a ti, a tu familia y felicidades de nuevo que cumplas más años, y siempre estés llena de bendiciones, sabes lo mucho que te quiero, aprecio, y que nadie intente cambiarte, eres hermosa tal y como eres. Nuevas etapas están por llegar a tu vida y prepárate para ello, porque son cosas que deberás disfrutar e incluso disfrutar lo que no te gusta, porque te llenaran de experiencias, sean malas o buenas. No te cierres a nuevas oportunidades, trata de siempre afrontar los riesgos y tomarlos si quieres siempre avanzar. Siéntete orgullosa, por lo que hiciste, por lo que haces y por lo que harás!. Cada pasó que des disfrútalo, porque no sabes si el día de mañana estés parada sobre el mismo lugar.',
+			seeYou:
+				'Te miro alguien super apasionada en lo que haces, le pones mucho empeño, haces que todo salga de lo mejor posible, eres perseverante, siempre quieres autosuperarte tambien de que siempre buscas estar contigo misma.',
+			wantYou:
+				'Quiero que siempre intentes y te enfoques en hacerte feliz a ti misma de verdad y no aparentar serlo, que ahí esta la clave de que tan bien te irá en la vida.',
+			senseYou: [
+				{
+					cover: 'https://images.unsplash.com/photo-1623239260654-329189722b4b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+					text: 'Te gusta el campo y amas los animales 🤓',
+				},
+			],
+			notionPage: [
+				'https://hectorsald.notion.site/Vania-Bahena-a396a6b3f2a84a45be741cfb886649a6',
 			],
 		},
 	},
