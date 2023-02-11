@@ -12,8 +12,7 @@
 </div>
 <br>
 
- This is a personal project to send only the web site to my friends and wish the best birthday with a custom design of glassmorphism, dynamic data and
-	 router according to the person.
+ This is a personal project to send only the web site to my friends and wish the best in a custom design of glassmorphism, dynamic data and  router according to the person.
 
  <p align="center">
     <a href="https://ddoorr.netlify.app/">View Page</a>
