@@ -1,7 +1,5 @@
 module.exports = {
-	content: [
-		"./src/**/*.{js,jsx,ts,tsx}",
-	],
+	content: ["./src/**/*.{js,jsx,ts,tsx}"],
 	theme: {
 		fontFamily: {
 			poppins: ["Poppins"],
@@ -15,7 +13,7 @@ module.exports = {
 			container: {
 				center: true,
 			},
-		}
+		},
 	},
 	plugins: [],
-}
+};
