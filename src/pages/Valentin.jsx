@@ -28,7 +28,7 @@ const Valentin = () => {
 				<div className='w-full h-full flex justify-center items-center'>
 					<div className='text-center md:mx-20'>
 						<Link className='btnCartoonFilled mx-auto w-1/3 mb-5' to='/'>
-							<h1 className='text-5xl md:text-7xl font-bold tracking-tighter'>
+							<h1 className='text-3xl md:text-7xl font-bold tracking-tighter'>
 								DOR
 							</h1>
 						</Link>
@@ -59,7 +59,7 @@ const Valentin = () => {
 
 						<div className='block group'>
 							<div className='relative transition bg-[#e9e1cd] border-2 border-black group-hover:-translate-x-2 group-hover:-translate-y-2 rounded-xl group-hover:shadow-[8px_8px_0_0_#000] p-8'>
-								<em className='text-2xl md:text-3xl'> "{quote}"</em>
+								<em className='text-xl md:text-3xl'> "{quote}"</em>
 							</div>
 						</div>
 					</div>
