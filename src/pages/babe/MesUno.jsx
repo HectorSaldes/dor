@@ -17,7 +17,7 @@ export default function Mes({ bg_1, bg_2 }) {
 				<div className='flex justify-center'>
 					<CardCartoonOutlined Items={() => <ImageTop url={Foto} alt='Image profile' />} />
 				</div>
-				<div className='my-7 mx-8 grid gap-4'>
+				<div className='my-1 mx-0 sm:my-7 md:mx-8 grid gap-1 sm:gap-4'>
 					<CardCartoonFilled Items={() => (
 						<h1 className='font-bold text-5xl md:text-7xl text-center'>🎉 Feliz Primer Mes, Mi Amor 🎉</h1>)} />
 					<CardCartoonFilled Items={() => (<h2 className='text-3xl md:text-4xl text-center'>
@@ -36,6 +36,10 @@ export default function Mes({ bg_1, bg_2 }) {
 									cada
 									momento que hemos compartido. Este tiempo a tu lado ha sido un viaje maravilloso, lleno de conexión,
 									alegría y descubrimientos el uno con el otro.
+									<br />
+									<br />
+									Que rápido pasa el tiempo cuando estoy contigo, y qué lindo es ver como cada día nos conocemos más y más. Siento que entre más te conozco, más me enamoro de ti.
+									Parece que lo del Sushi fue ayer, y hoy ya estamos celebrando nuestro primer mes juntos que emoción te adoro tanto, me has hecho muy bonitos los días.
 									<br />
 									<br />
 
@@ -59,6 +63,15 @@ export default function Mes({ bg_1, bg_2 }) {
 									todos los momentos que aún tenemos por compartir.
 									<br />
 									<br />
+									Coloqué esa foto, porque siento que desde ese día dio la oportunidad a todo lo que somos ahora, nuestra primera salida, las primeras pláticas profundas y la primera vez que tomé tu mano,
+									todo ha sido muy bonito, y me encanta como nos vemos juntos, y como nos vemos el uno al otro.
+
+									<br/>
+									<br/>
+									También quiero decirte que no es necesario que me pagues la ropa que te compraste, tu playera y los pantalones, yo me encargo de eso, es como un regalito para ti.🎁
+									Nada más tú te encargas y divides tus pagos de los lentes y ya 🤓😘
+									<br/>
+									<br/>
 
 									Gracias por ser tú, por todo lo que hemos vivido y por todo lo que está por venir.
 
