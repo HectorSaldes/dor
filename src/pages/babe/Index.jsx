@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 
-import Mes_1 from './1_mes';
+import Mes_1 from './Mes_1';
 
 export default function Index() {
 	return (
