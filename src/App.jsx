@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HappyBirthday from "./pages/HappyBirthday.jsx";
 import Home from "./pages/Home";
+import Babe from './pages/babe/Index.jsx'
 import Error from "./pages/Error";
 import { Friends } from "./assets/utils/Friends";
 import Valentin from "./pages/Valentin";
@@ -12,6 +13,7 @@ export default function App() {
 			<BrowserRouter>
 				<Routes>
 					<Route path='/' element={<Home />} />
+					<Route path='/babe' element={<Babe />} />
 					{Friends.map((f) => (
 						<Route
 							key={Object.keys(f)[0]}
