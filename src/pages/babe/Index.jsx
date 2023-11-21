@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 
-import Mes_1 from './Mes_1';
+import Mes_uno from './Mes_uno';
 
 export default function Index() {
 	return (
@@ -22,7 +22,7 @@ export default function Index() {
 					</a>
 				</div>
 			</div>
-			<Mes_1 bg_1='#9B27A5' bg_2='#9D79BC' />
+			<Mes_uno bg_1='#9B27A5' bg_2='#9D79BC' />
 		</>
 	);
 }
