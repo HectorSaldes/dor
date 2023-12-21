@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 import MesUno from './MesUno';
+import MesDos from './MesDos';
 
 export default function Index() {
 	return (
@@ -22,6 +23,7 @@ export default function Index() {
 					</a>
 				</div>
 			</div>
+			<MesDos bg_1='#A663CC' bg_2='#B298DC' />
 			<MesUno bg_1='#9B27A5' bg_2='#9D79BC' />
 		</>
 	);

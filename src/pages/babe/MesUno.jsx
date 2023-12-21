@@ -4,7 +4,7 @@ import CardCartoonFilled from '../../components/CardCartoonFilled';
 import ImageTop from '../../components/ImageTop';
 import moment from 'moment';
 import 'moment/locale/es-mx';
-import Foto from './assets/diana.jpeg';
+import Foto from './assets/mes_uno/diana.jpeg';
 
 moment.locale('es-mx');
 
