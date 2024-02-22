@@ -4,6 +4,8 @@ import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 import MesUno from './MesUno';
 import MesDos from './MesDos';
+import MesTres from './MesTres';
+import MesCuatro from './MesCuatro';
 
 export default function Index() {
 	return (
@@ -23,6 +25,8 @@ export default function Index() {
 					</a>
 				</div>
 			</div>
+			<MesCuatro bg_1='#FDE12D' bg_2='#9046CF' />
+			<MesTres bg_1='#8380B6' bg_2='#8789C0' />
 			<MesDos bg_1='#A663CC' bg_2='#B298DC' />
 			<MesUno bg_1='#9B27A5' bg_2='#9D79BC' />
 		</>
