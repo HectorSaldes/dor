@@ -6,6 +6,7 @@ import Babe from './pages/babe/Index.jsx'
 import Error from "./pages/Error";
 import { Friends } from "./assets/utils/Friends";
 import Valentin from "./pages/Valentin";
+import Brenda from "./pages/Brenda";
 
 export default function App() {
 	return (
@@ -14,6 +15,7 @@ export default function App() {
 				<Routes>
 					<Route path='/' element={<Home />} />
 					<Route path='/babe' element={<Babe />} />
+					<Route path='/Brenda' element={<Brenda />} />
 					{Friends.map((f) => (
 						<Route
 							key={Object.keys(f)[0]}
